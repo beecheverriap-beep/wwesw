@@ -16,6 +16,8 @@ public class Main {
         dispositivo1.ejecutarDiagnostico();
         dispositivo2.ejecutarDiagnostico();
         dispositivo3.ejecutarDiagnostico();
+        dispositivo1.mostrarEstado();
+
 
         proyector.mostrarEstado();
         computador.mostrarEstado();
