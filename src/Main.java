@@ -8,6 +8,14 @@ public class Main {
 
         Dispositivo dispositivo = new Dispositivo("Hola", true);
 
+        Dispositivo dispositivo1 = new Proyector("Hola como estas", true);
+        Dispositivo dispositivo2 = new Impresora("Hola sddwewsadsad", false);
+        Dispositivo dispositivo3 = new Computador("Hola csasad", true);
+
+
+        dispositivo1.ejecutarDiagnostico();
+        dispositivo2.ejecutarDiagnostico();
+        dispositivo3.ejecutarDiagnostico();
 
         proyector.mostrarEstado();
         computador.mostrarEstado();
